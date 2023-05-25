@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 List<string> list = new List<string>();
 
+//Feladat 1
 StreamReader sr = new StreamReader("Data/balkezesek.csv");
 
 while (!sr.EndOfStream)
@@ -12,3 +13,6 @@ while (!sr.EndOfStream)
 }
 
 sr.Close();
+
+
+//Feladat 2
